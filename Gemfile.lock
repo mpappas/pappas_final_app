@@ -28,6 +28,8 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    annotate (2.5.0)
+      rake
     arel (3.0.2)
     bootstrap-sass (2.1.0.0)
     builder (3.0.4)
@@ -174,6 +176,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  annotate (= 2.5.0)
   bootstrap-sass (= 2.1)
   capybara (= 1.1.2)
   childprocess (= 0.3.9)
